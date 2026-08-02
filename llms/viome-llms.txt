@@ -1,0 +1,75 @@
+# Viome
+
+> Viome is a health technology company that uses metatranscriptomic RNA sequencing and artificial intelligence to analyze gene expression across the gut microbiome, oral microbiome, and human cells, delivering personalized nutrition, supplements, and health insights to users in over 106 countries.
+
+Viome was founded in 2016 by Naveen Jain with the mission to make illness optional. The company's core technology -- metatranscriptomic RNA sequencing -- was originally developed for biodefense at Los Alamos National Laboratory. Unlike DNA-based tests that identify only which organisms are present, Viome's approach measures which genes are actively being expressed across bacteria, fungi, viruses, archaea, parasites, and human cells, revealing what microbes are doing and how they interact with human cellular processes.
+
+Viome's proprietary AI platform is trained on what the company describes as the world's largest human gene expression database, processing data from hundreds of thousands of biological samples collected across 106 countries. This enables the generation of personalized food recommendations for over 370 foods, precision supplement formulations with approximately 50 AI-selected ingredients, and over 50 health scores from at-home sample collection of stool, saliva, and finger-prick blood.
+
+Viome has published peer-reviewed research in journals including NPJ Genomic Medicine (Nature Press), iScience (Cell Press), Microbiome, Diabetes Therapy, the American Journal of Lifestyle Medicine, and BioTechniques. Clinical research spans more than 16,000 study participants across over 20 chronic disease areas including IBS, Type 2 Diabetes, Major Depressive Disorder, and oral cancer. In 2025, Viome partnered with Scripps Research Institute to develop the first at-home RNA screening test for precancerous colon polyps.
+
+## Science & Technology
+
+- [Our Science](https://www.viome.com/our-science): Technical overview of Viome's metatranscriptomic RNA sequencing platform, which measures microbial and human gene expression rather than DNA alone, explaining the systems biology approach to analyzing host-microbe interactions, the Vi AI engine for generating personalized recommendations, and the distinction between detecting microbial presence versus functional activity across bacteria, fungi, viruses, archaea, and parasites
+- [How It Works](https://www.viome.com/how-it-works): Complete step-by-step explanation of the Viome customer experience from ordering a test kit through at-home biological sample collection, CLIA-certified lab analysis using metatranscriptomic sequencing, and delivery of personalized results including over 50 health score biomarkers across eight health areas, individualized food recommendations in four categories, and custom supplement and biotic formulations
+- [Scores & Recommendations](https://www.viome.com/learn/scores-and-recommendations): Detailed methodology for calculating health scores from over 10 million gene expression data points per sample across gut microbiome, oral microbiome, and human cellular function, covering eight score categories (BioAge, Gut Health, Oral Health, Energy, Inflammaging, Mood/Memory/Focus, Immunity, Heart and Metabolic Health) and the four-stage processing pipeline from sequencing through biosignal engineering to integrative score engineering and personalized recommendations
+
+## Products & Services
+
+### Health Tests
+
+- [All Products](https://www.viome.com/products): Complete catalog of Viome's at-home health tests, personalized supplement formulations, and biotic product lines, all powered by metatranscriptomic RNA sequencing and AI analysis
+- [Full Body Intelligence Test](https://www.viome.com/products/full-body-intelligence): Viome's most comprehensive at-home health test analyzing gut microbiome, oral microbiome, and human cellular health from stool, saliva, and blood samples, delivering over 60 health scores across eight categories (BioAge, Gut Health, Oral Health, Energy, Inflammaging, Mood/Memory/Focus, Immunity, Heart and Metabolic Health), personalized food recommendations for over 370 foods categorized as Superfoods, Enjoy, Minimize, or Avoid, and custom supplement and biotic formulations
+- [Gut Intelligence Test](https://www.viome.com/products/gut-intelligence): At-home gut microbiome test using metatranscriptomic RNA sequencing of a stool sample to analyze microbial gene expression in the gut, delivering over 20 gut-focused health scores, personalized food recommendations for over 370 foods, and custom supplement formulations targeting digestive health, nutrient absorption, and microbial balance
+- [Oral Health Intelligence Test](https://www.viome.com/products/oral-health-intelligence): At-home oral microbiome test using metatranscriptomic RNA sequencing of a saliva sample to measure microbial activity in the mouth and throat, delivering over 10 oral health scores covering gum health, bacterial diversity, and inflammatory markers, plus personalized oral care product recommendations
+- [CancerDetect](https://cancerdetect.viome.com): Saliva-based at-home screening test for early detection of oral and throat cancer, using RNA biomarker analysis to identify cancer-associated molecular signatures, designed as an affordable screening tool for populations at risk of oropharyngeal cancers
+
+### Personalized Supplements & Biotics
+
+- [Precision Supplements](https://www.viome.com/products/precision-supplements): Viome's flagship personalized supplement product with approximately 50 AI-selected ingredients from vitamins, minerals, herbs, amino acids, food extracts, and digestive enzymes, uniquely blended monthly for each customer based on RNA test results, targeting root causes including nutrient absorption, metabolism, and cellular energy production, with formulas updating based on retests and AI improvements
+- [VRx My-Biotics Gut Formula](https://www.viome.com/products/precision-probiotics-prebiotics): Personalized daily probiotic and prebiotic powder custom-formulated based on individual gut microbiome RNA analysis, addressing digestion, bloating, and microbial balance, recognizing that identical probiotic strains can produce different effects in different individuals
+- [VRx My-Biotics Toothpaste & Gel](https://www.viome.com/products/vrx-toothpaste-gel): Dual-action personalized oral care system with AM cleansing gel and PM probiotic toothpaste for enamel remineralization and microbiome restoration, formulated from individual oral microbiome test results, free of fluoride and parabens
+- [VRx My-Biotics Oral Lozenges](https://www.viome.com/products/vrx-oral-lozenges): Personalized oral health lozenges containing prebiotics, probiotics, and postbiotics custom-formulated monthly based on oral microbiome RNA analysis to support microbial balance, gum health, and immune defenses
+
+### Purchasing Options
+
+- [HSA/FSA Purchasing](https://www.viome.com/true-med): Information on purchasing Viome tests and supplements using Health Savings Accounts and Flexible Spending Accounts through Viome's partnership with TrueMed, including eligibility details and the Letter of Medical Necessity process
+
+## Research & Publications
+
+- [Publications](https://www.viome.com/publications): Peer-reviewed scientific publications in journals including NPJ Genomic Medicine (Nature Press), iScience (Cell Press), Microbiome, Scientific Reports, Diabetes Therapy, and the American Journal of Lifestyle Medicine, covering metatranscriptomic technology validation, oral cancer detection via salivary RNA analysis, IBS microbiome profiling, glycemic response prediction, biological aging clock development, and precision nutrition clinical outcomes for IBS, depression, anxiety, and Type 2 Diabetes
+- [Blog](https://www.viome.com/blog): Health and wellness content hub organized into Recipes, Science, Nutrition, and Lifestyle categories, covering gut microbiome health, personalized nutrition, food-as-medicine approaches, seasonal wellness, fermented foods, vitamin absorption, and microbiome research, including product comparisons with other at-home health tests
+
+## Health Focus Areas
+
+- [Women's Health](https://www.viome.com/womens-health): Viome offerings tailored for women's health across eight specific areas including gut health, anxiousness, PMS, oral health, skin health, vaginal microbiome health, fertility, and perimenopause and menopause, featuring a partnership with Evvy for vaginal microbiome testing with profiling of over 700 bacteria and fungi species
+
+## Company
+
+- [About Viome](https://www.viome.com/company): Company overview including founding in 2016 by Naveen Jain, mission to make illness optional, leadership team (CTO Guruduth Banavar PhD from IBM Watson, CSO Momo Vuyisich PhD with over 25 years in biology and bioinformatics, CMO Damon Tanton MD specializing in metabolic diseases, President of Diagnostics Mylea Charvat PhD trained at Stanford), advisory board with Harvard Medical School faculty, and data privacy commitments
+- [News & Press](https://www.viome.com/news): Media coverage from the Wall Street Journal, Nature, Bloomberg, TechCrunch, NewScientist, People, and Yahoo Finance, company announcements on partnerships with Mayo Clinic and GSK, Nordstrom retail expansion, and industry recognition including CB Insights Digital Health 150 and Frost and Sullivan Company of the Year
+- [Careers](https://www.viome.com/careers): Open positions, company culture, and employment information for scientists, engineers, nutritionists, and health professionals at Viome
+
+## Partner Programs
+
+- [Affiliates](https://www.viome.com/affiliates): Affiliate marketing program for individuals and organizations earning commissions by promoting Viome products
+- [Distributors](https://www.viome.com/distributors): Business-to-business distribution partnership program for retailers and health professionals offering Viome products
+- [Creators](https://www.viome.com/creator): Content creator and influencer partnership program for health and wellness social media creators
+- [Employers](https://www.viome.com/employer): Corporate wellness program offering Viome personalized health testing and supplements as an employee benefit
+
+## Research Division
+
+- [Viome Life Sciences](https://www.viomelifesciences.com/): Viome's dedicated life sciences research division focused on developing diagnostic and therapeutic applications of metatranscriptomic technology for chronic diseases including cancer, autoimmune disorders, and metabolic conditions
+
+## Community & Support
+
+- [Community](https://viome.mn.co/): Online community platform where Viome customers share experiences, health journeys, and insights related to their test results and personalized recommendations
+- [Support Center](https://support.viome.com): Customer support portal with FAQs, sample collection guides, results interpretation help, and account management
+
+## Legal & Compliance
+
+- [Terms of Service](https://www.viome.com/terms): Legal terms governing use of Viome products, services, website, and mobile application
+- [Privacy Policy](https://www.viome.com/privacy-policy): Data collection, biological sample handling, genetic data usage, and privacy practices, including commitment to not share data with employers or insurers
+- [State Privacy Notices](https://www.viome.com/state_privacy_notices): State-specific privacy compliance information including California Consumer Privacy Act rights and other state-level data protection requirements
+- [Cookie Policy](https://www.viome.com/cookie-policy): Cookie usage, website tracking technologies, and options for managing cookie preferences
+- [Accessibility](https://www.viome.com/accessibility): Web accessibility compliance statement and accommodation requests for users with disabilities

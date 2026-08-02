@@ -1,0 +1,53 @@
+generated: '2026-08-02'
+method: searched
+source: npm registry search, PyPI, RubyGems, github.com/Viome
+note: >-
+  Viome publishes NO client SDK for an API, because Viome publishes no public
+  API. The one first-party package found on npm is an internal React Native
+  native-module toolkit used to build the Viome mobile app — it is not an API
+  client library, so no `SDKs` pointer is wired in apis.yml (wiring one would
+  credit an SDK surface that does not exist).
+packages:
+- language: javascript
+  registry: npm
+  name: react-native-viome-toolkit
+  url: https://www.npmjs.com/package/react-native-viome-toolkit
+  install: npm install react-native-viome-toolkit
+  official: true
+  kind: mobile-native-module-toolkit
+  api_client: false
+  evidence: >-
+    npm maintainer is c_gowtham.d@viome.com (a viome.com corporate address).
+    Package is a Viome-maintained distribution of the Nitro React Native
+    native-module toolkit (upstream repository github.com/mrousavy/nitro),
+    used inside the Viome mobile application. Not an API client.
+- language: javascript
+  registry: npm
+  name: viomechatbot
+  url: https://www.npmjs.com/package/viomechatbot
+  install: npm install viomechatbot
+  official: false
+  kind: chatbot-widget
+  api_client: false
+  evidence: >-
+    package.json author field says "Viome" but the npm maintainer is a personal
+    gmail address (paulus.apr@gmail.com) and the repository sits under a
+    personal GitHub account (github.com/paulusphoton/ViomeChatBot). First-party
+    status is NOT verified — recorded as unofficial.
+registries_checked:
+- registry: npm
+  result: 2 name matches (see above); no API client library
+- registry: pypi
+  result: no package (viome, viome-api, pyviome all 404)
+- registry: rubygems
+  result: no package (404)
+- registry: github
+  org: https://github.com/Viome
+  result: >-
+    org exists with 4 public repositories, all forks of unrelated third-party
+    projects (pgjdbc-ng, awesome-claude-skills, claude-ads,
+    coreyhaines-marketingskills). No Viome SDK, no .proto, no OpenAPI.
+summary:
+  official_api_clients: 0
+  official_packages: 1
+  languages: [javascript]

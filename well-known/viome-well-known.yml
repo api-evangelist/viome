@@ -1,0 +1,100 @@
+generated: '2026-08-02'
+method: probed
+source: live GET of /.well-known/* on every Viome host
+note: >-
+  No /.well-known/ document is published on any Viome host. Recorded so later
+  rounds do not re-probe blindly. IMPORTANT: my.viome.com, app.viome.com and
+  vpp.viome.com are single-page applications whose catch-all route answers HTTP
+  200 with an HTML shell for EVERY /.well-known/* path — those 200s are false
+  positives (content-type text/html, body is the SPA document, not JSON/text)
+  and are recorded as `spa_catch_all: true` rather than as hits.
+hosts:
+- host: https://www.viome.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://api.viome.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://my.viome.com
+  spa_catch_all: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell, not RFC 9116 text
+  - path: /.well-known/openid-configuration
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell, not JSON
+  - path: /.well-known/agent-card.json
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell, not an AgentCard
+  - path: /.well-known/agent.json
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell, not an AgentCard
+- host: https://vpp.viome.com
+  spa_catch_all: true
+  documents:
+  - path: /.well-known/agent-card.json
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell
+  - path: /.well-known/agent.json
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell
+- host: https://app.viome.com
+  spa_catch_all: true
+  documents:
+  - path: /.well-known/agent-card.json
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell
+  - path: /.well-known/agent.json
+    status: 200
+    content_type: text/html
+    hit: false
+    reason: SPA catch-all returned the HTML application shell
+- host: https://support.viome.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+summary:
+  documents_found: 0
+  security_txt: false
+  openid_configuration: false
+  oauth_authorization_server: false
+  api_catalog: false
+  ai_plugin: false
+  agent_card: false

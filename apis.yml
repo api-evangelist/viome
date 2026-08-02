@@ -1,17 +1,41 @@
 aid: viome
 name: Viome
-description: 'Viome is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Viome (Viome Life Sciences) is a health technology company founded in
+  2016 by Naveen Jain that uses metatranscriptomic RNA sequencing — a technique originally
+  developed for biodefense at Los Alamos National Laboratory — combined with artificial
+  intelligence to measure active gene expression across the gut microbiome, oral microbiome,
+  and human cells. From at-home stool, saliva, and finger-prick blood samples the
+  company produces over 50 health scores across eight categories (BioAge, Gut Health,
+  Oral Health, Energy, Inflammaging, Mood/Memory/Focus, Immunity, and Heart and Metabolic
+  Health), personalized food recommendations across more than 370 foods, and custom-blended
+  precision supplements and biotics. Products include the Full Body Intelligence,
+  Gut Intelligence, and Oral Health Intelligence tests plus the CancerDetect saliva
+  screening test for oral and throat cancer. Viome operates in over 100 countries,
+  publishes peer-reviewed research in NPJ Genomic Medicine, iScience, and Microbiome,
+  and runs a Life Sciences research division. Viome publishes no public developer
+  API or machine-readable API contract; its consumer app at my.viome.com is served
+  by an undocumented private backend, and the only agent-facing artifact the company
+  publishes is a curated llms.txt.'
 url: https://raw.githubusercontent.com/api-evangelist/viome/refs/heads/main/apis.yml
+image: https://strapi.azure.viome.com/viome-strapi/uploads/1024x1024bb_16f1932f97.png
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profile
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Health
+- Healthcare
+- Microbiome
+- Genomics
+- Diagnostics
+- Nutrition
+- Life Sciences
+- Artificial Intelligence
+- Consumer Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +43,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/viome-domain-security.yml
 - type: Website
+  url: https://www.viome.com/
+- type: Blog
+  url: https://www.viome.com/blog
+- type: Support
+  url: https://support.viome.com/
+- type: GitHubOrganization
+  url: https://github.com/Viome
+- type: Pricing
+  url: https://www.viome.com/products
+- type: Login
+  url: https://my.viome.com/login
+- type: TermsOfService
+  url: https://www.viome.com/terms
+- type: PrivacyPolicy
+  url: https://www.viome.com/privacy-policy
+- type: LLMsTxt
+  url: llms/viome-llms.txt
+- type: Packages
+  url: packages/viome-packages.yml
+- type: SecondaryMarket
   url: https://forgeglobal.com/viome_stock/
+x-enrichment:
+  date: '2026-08-02'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
