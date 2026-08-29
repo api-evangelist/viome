@@ -17,6 +17,17 @@ description: 'Viome (Viome Life Sciences) is a health technology company founded
   by an undocumented private backend, and the only agent-facing artifact the company
   publishes is a curated llms.txt.'
 url: https://raw.githubusercontent.com/api-evangelist/viome/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://strapi.azure.viome.com/viome-strapi/uploads/1024x1024bb_16f1932f97.png
 x-type: company
 x-source: harvest:secondary-market
