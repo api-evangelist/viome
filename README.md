@@ -64,48 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Viome (Viome Life Sciences) is a health technology company founded in 2016 by Naveen Jain. It uses
-metatranscriptomic RNA sequencing — a technique originally developed for biodefense at Los Alamos
-National Laboratory — plus AI to measure active gene expression across the gut microbiome, oral
-microbiome, and human cells, from at-home stool, saliva, and finger-prick blood samples.
+Viome (Viome Life Sciences) is a health technology company founded in 2016 by Naveen Jain that uses metatranscriptomic RNA sequencing — a technique originally developed for biodefense at Los Alamos National Laboratory — combined with artificial intelligence to measure active gene expression across the gut microbiome, oral microbiome, and human cells. From at-home stool, saliva, and finger-prick blood samples the company produces over 50 health scores across eight categories (BioAge, Gut Health, Oral Health, Energy, Inflammaging, Mood/Memory/Focus, Immunity, and Heart and Metabolic Health), personalized food recommendations across more than 370 foods, and custom-blended precision supplements and biotics. Products include the Full Body Intelligence, Gut Intelligence, and Oral Health Intelligence tests plus the CancerDetect saliva screening test for oral and throat cancer. Viome operates in over 100 countries, publishes peer-reviewed research in NPJ Genomic Medicine, iScience, and Microbiome, and runs a Life Sciences research division. Viome publishes no public developer API or machine-readable API contract; its consumer app at my.viome.com is served by an undocumented private backend, and the only agent-facing artifact the company publishes is a curated llms.txt.
 
-- Website — https://www.viome.com/
-- Life Sciences division — https://www.viomelifesciences.com/
-- Support — https://support.viome.com/
-- Secondary market listing — https://forgeglobal.com/viome_stock/
+**Areas:** Company · Health · Healthcare · Microbiome · Genomics · Diagnostics · Nutrition · Life Sciences · Artificial Intelligence · Consumer Health
 
-## API posture
+## Viome on APIs.io
 
-**Viome publishes no public API and no machine-readable API contract.** This was established by probe,
-not by assumption — recorded here so later enrichment rounds do not repeat the hunt.
+Everything profiled for Viome is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/viome/](https://apis.io/providers/viome/)** — or go straight to one of the APIs or properties below.
 
-| Probe | Result |
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Viome Domain Security](https://apis.io/security/viome/viome-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.viome.com/)
+- [Pricing](https://www.viome.com/products)
+- [Support](https://support.viome.com/)
+- [Blog](https://www.viome.com/blog)
+- [Terms of service](https://www.viome.com/terms)
+- [Privacy policy](https://www.viome.com/privacy-policy)
+- [GitHub](https://github.com/Viome)
+
+## API Evangelist rating
+
+**Kin Score 14.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| `api.viome.com` — `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/v1/openapi.json`, `/api-docs`, `/docs`, `/redoc`, `/graphql` | all **404** |
-| `www.viome.com/openapi.json` | 404 |
-| `developer.viome.com`, `docs.viome.com`, `developers.viome.com` | do not resolve (no DNS) |
-| GraphQL introspection | no `/graphql` surface on any host |
-| MCP `tools/list` | no MCP server; `mcp.viome.com` does not resolve; MCP registry search returns 0 |
-| A2A `/.well-known/agent-card.json` and `/.well-known/agent.json` | 404 on `www.` and `api.`; **HTML SPA catch-all 200s** on `my.`, `app.`, `vpp.` — rejected as false positives |
-| `/.well-known/*` (security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json) | none published |
-| npm / PyPI / RubyGems | no API client SDK |
-| `github.com/Viome` | 4 public repos, all forks of unrelated third-party projects |
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 38.2 |
 
-The consumer app at `my.viome.com` is backed by an **undocumented private HTTP backend**
-(`/app/authenticate/credentials`, `/app/dashboard/user/external/results/…`) that is known only from a
-third-party reverse-engineering gist. Viome publishes no specification, no documentation, and no terms
-covering it, so it is **not** registered as an API here and no OpenAPI has been authored for it.
+**Agent readiness 0.0** — human-only
 
-## What Viome does publish
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-A curated, high-quality **`llms.txt`** at <https://www.viome.com/llms.txt> — captured verbatim in
-[`llms/viome-llms.txt`](llms/viome-llms.txt). Their `robots.txt` also carries an explicit AI-crawler
-policy (OAI-SearchBot / ChatGPT-User / PerplexityBot / Google-Extended allowed; GPTBot and CCBot
-disallowed). For a company with no API, that is a deliberate agent-facing posture.
+**Regulatory alignment 10.3** — Health
 
-## Artifacts
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/viome/](https://apis.io/providers/viome/).
 
-- `llms/viome-llms.txt` — verbatim `llms.txt` (searched)
-- `packages/viome-packages.yml` — package-registry sweep (searched)
-- `well-known/viome-well-known.yml` — `/.well-known/*` probe record incl. SPA false positives (probed)
-- `security/viome-domain-security.yml` — TLS/HSTS/DNSSEC/CAA/SPF/DMARC (probed)
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Viome: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/viome/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
